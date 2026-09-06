@@ -37,11 +37,6 @@ repositories {
         url 'https://oss.sonatype.org/content/repositories/snapshots'
     }
     maven {
-        name 'mvdw-repo'
-        url 'https://repo.mvdw-software.be/content/groups/public/'
-        allowInsecureProtocol = true 
-    }
-    maven {
         name 'clip-repo'
         url 'https://repo.extendedclip.com/content/repositories/placeholderapi/'
     }
